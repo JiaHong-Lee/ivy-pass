@@ -3,15 +3,21 @@
 ;; Copyright (C) 2020 Lee Jia Hong
 
 ;; Author   : Lee Jia Hong <jiahong@zacque.tk>
+;; Maintainer: Lee Jia Hong
+;; URL: https://github.com/JiaHong-Lee/ivy-pass
 ;; Created  : 10th April 2020
-;; Modified :
 ;; Version  : 0.0.1
 ;; Keywords : ivy pass
-;;
-;;; Commentary:
-;;
+;; Package-Requires: ((ivy "") (password-store ""))
 
-;; code:
+;; This file is NOT part of GNU Emacs.
+
+;; This file is a free software (MIT License).
+
+;;; Commentary:
+;; Ivy interface to pass command.
+
+;;; Code:
 
 (require 'ivy)
 (require 'password-store)
