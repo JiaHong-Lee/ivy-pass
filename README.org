@@ -5,6 +5,8 @@
 #+KEYWORDS:   emacs ivy pass interface
 
 * Introduction
+[[https://www.passwordstore.org/][Pass]] is a password management that follow Unix philosophy.
+
 There are two Emacs packages that deals with pass: ~password-store~ and ~pass~. The ~password-store~ comes with the =pass= system packages. It is written by the =pass= authors. The ~pass~ package offers a better interface but I think that is overkill. What I need is just an ivy interface for me to pick an entry to copy the password or view/edit the file, with other options defined as ivy-actions. So, based on the two packages, I have written my own function to do what I need.
 
 * Tasks
